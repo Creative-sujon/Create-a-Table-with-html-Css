@@ -1,0 +1,45 @@
+.table-project{
+    width: 1320px;
+}
+.inner-project {
+    margin: auto;
+    width: 535px;
+}
+.sallaryreport{
+    display: block;
+	border-collapse:collapse;
+	border-color:gray;
+}
+
+.sallaryreport thead{
+	background:#20477C;
+	color:white;
+	text-transform:uppercase;	
+	font-family:arial black;
+}
+
+
+.sallaryreport thead tr th{
+	padding:10px;
+}
+
+.sallaryreport tbody tr td{
+	padding:10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.sallaryreport tbody tr:nth-child(odd){
+	background:#C4D9F6;
+	color:black;
+	text-transform:uppercase;	
+	font-family:arial black;
+}
+
+
+.sallaryreport tbody tr:nth-child(even){
+	background:#99B161;
+	color:black;
+	text-transform:uppercase;	
+	font-family:arial black;
+}
